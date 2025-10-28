@@ -1,7 +1,8 @@
 # layer 0: Background object
 # layer 1: foreground object
+# layer 2: 제일 앞 레이어
 
-world = [[], []]
+world = [[], [], []]
 
 def add_object(o, depth = 0):
     if depth < 0 or depth >= len(world):
